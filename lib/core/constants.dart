@@ -5,5 +5,5 @@ class Api {
 
 class Limits {
   static const experienceText = 250;
-  //static const questionText = 600;
+  static const questionText = 600;
 }

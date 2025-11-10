@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-/// Central color tokens approximated from your screenshots.
 class AppColors {
-
-
+  // Text
   static const text1 = Color(0xFFFFFFFF);    // 100%
   static const text2 = Color(0xB8FFFFFF);    // 72%
   static const text3 = Color(0x7AFFFFFF);    // 48%
@@ -33,25 +31,4 @@ class AppColors {
   static const border1 = Color(0x14FFFFFF);  // 8%
   static const border2 = Color(0x29FFFFFF);  // 16%
   static const border3 = Color(0x3DFFFFFF);  // 24%
-
-
-  // Backgrounds
-  static const bg = Color(0xFF0B0B0F);
-  static const card = Color(0xFF15151B);
-  static const field = Color(0xFF111117);
-
-  // Text
-  static const textPrimary = Colors.white;
-  static const textSecondary = Color(0xFFB8B8C3);
-
-  // Accents
-  static const accent = Color(0xFF7C7DFF);
-  static const accentMuted = Color(0xFF494A9E);
-
-  // Strokes
-  static const stroke = Color(0xFF2A2A33);
-
-  // States
-  static const success = Color(0xFF2ECC71);
-  static const danger = Color(0xFFE74C3C);
 }
